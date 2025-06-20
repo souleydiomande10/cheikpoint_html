@@ -1,75 +1,264 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>PORTOFLIO</title>
-        <link rel="stylesheet" href="index.css">
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTOFOLIO</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="Style.css">
+</head>
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#Resume">Resume</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section>
-                <h2>about</h2>
-                <p>Je suis passionné de tout ce qui aspire a l'informatique et le digital.</p>
-                <p>Hors mi l'informatique j'ai des loisir comme :</p>
-                <ul>
-                    <li>Le sport</li>
-                    <li>La musique</li>
-                    <li>Les jeux vidéos</li>
-                    <li>Les film</li>
-                </ul>
-                <p>parlant de musique et de film, ma musique préferée est:</p>
-                <audio controls>
-                    <source src="/Kalash_Criminel_-_Peur_de_personne(360p)-mc.m4a" type="audio/mpeg">
-                </audio>
-                <p>Ma vidéo préferée est:</p>
-                <video width="320" height="240" autoplay>
-                    <source src="/Kalash_Criminel_-_Encore__Clip_officiel_(1080p).mp4" type="video/mp4">
-                </video>
-            </section>
-            <section>
-                <h2>work</h2>
-                <table border="1">
-                    <tr>
-                        <th>PROJET</th>
-                        <th>VISION</th>
-                    </tr>
-                    <tr>
-                        <td>Créer plusieurs sites vitrines pour des entreprises.</td>
-                        <td>Toujours me surpasser, surpasser mes attentes, avoir la soif de la crétivité. </td>
-                    </tr>
-                    <tr></tr>
-                </table>
-            </section>
-            <section>
-                <h2>Resume</h2>
-                <p>Je suis encore novice dans le domaine du web developpement.</p>
-                <p>Mais je commence dejà à tomber amoureux.</p>
-            </section>
-            <section>
-                <h2>Me contacter</h2>
-                <form>
-                    <label>Name:</label>
-                    <input type="text" name="name">
-                    <br>
-                    <label>Email:</label>
-                    <input type="email"  name="email">
-                    <br>
-                    <label>Laissez un message:</label>
-                    <textarea  name="message"></textarea>
-                    <br>
-                    <button type="submit">Envoyer</button>
-            </section>
-        </main>
-        <footer></footer>
+                <nav  class="bos">
+                    <h1><span>MON</span> PORTFOLIO</h1>
+                    <div>
+                        <li class="dropdown">
+                            <a href="#" >Allez vers la page </a>
+                        <ul class="sous-menu">
+                            <li>
+                                <a href="#travail"> <i class="fas fa-user"></i> <span>Work</span> </a>
+                            </li>
+                            <li>
+                                <a href="#cv"> <i class="fas fa-briefcase"></i> <span>CV</span> </a>
+                            </li>
+                            <li>
+                                <a href="#contact"> <i class="fas fa-address-book"></i> <span>Contact</span> </a>
+                            </li>
+                        </ul>
+                        </li>
+                        <a href="#accueil"> <i class="fas fa-home"></i> <span>Accueil</span> </a>
+                        <a href="#travail"> <i class="fas fa-user"></i> <span>Work</span> </a>
+                        <a href="#cv"> <i class="fas fa-briefcase"></i> <span>CV</span> </a>
+                        <a href="#contact"> <i class="fas fa-address-book"></i> <span>Contact</span> </a>
+                    </div>
+                </nav>
+
+            <main>
+                <section id="accueil" class="Hero">
+
+                    <div class="contet">
+                        <img src="image/Mister Diom's dev-web.png" alt="">
+                    </div>
+
+                    <div class="touti">
+                        <h1>"Créer, c'est vivre deux fois."<span> Albert Camus</span></h1>
+                        <p>Bienvenue sur mon Portfolio. je suis MR DIOMANDE SOULEYMANE,vous découvrirez tout ce qui me concerne, mes projets, ma vision et comment me contacter ici.</p>
+                        <a href="#contact" class="bix">Un Service? écrivez-moi <i class="fas fa-user"></i> </a>
+                    </div>
+
+                <section id="travail" class="travail">
+
+                    <h1 class="heading">A propos de <span>moi</span></h1>
+
+                    <div class="row">
+
+                        <div class="info-container">
+
+                            <h1>Information personnelle</h1>
+
+                            <div class="box-container">
+
+                                <div class="box">
+                                    <h3> <span>nom : </span> SOULEYMANE DIOMANDE </h3>
+                                    <h3> <span>age : </span> 28 </h3>
+                                    <h3> <span>email : </span> diomdesouley@gmail.com </h3>
+                                    <h3> <span>address : </span> Abidjan - T200 </h3>
+                                </div>
+
+                                <div class="box">
+                                    <h3> <span>freelance : </span> disponible </h3>
+                                    <h3> <span>Compétence : </span> front-end </h3>
+                                    <h3> <span>experience : </span> 1 years </h3>
+                                    <h3> <span>language : </span> francais </h3>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                        <div class="palmares-container">
+                            <div class="box">
+                                <h3>1+</h3>
+                                <p>Année d'expérience</p>
+                            </div>
+                            <div class="box">
+                                <h3>10+</h3>
+                                <p>Clients satisfaire</p>
+                            </div>
+                            <div class="box">
+                                <h3>8+</h3>
+                                <p>Projets terminés</p>
+                            </div>
+                            <div class="box">
+                                <h3>3+</h3>
+                                <p>Certification reussies</p>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+
+                </section>
+
+                <section class="competence">
+                        
+                        <h1 class="heading"><span>mes</span> compétences</h1>
+                        
+                        <div class="box-container">
+                            <div class="box">
+                                <img src="image/icon-1.png" alt="">
+                                <h3>html</h3>
+                            </div>
+
+                            <div class="box">
+                                <img src="image/icon-2.png" alt="">
+                                <h3>css</h3>
+                            </div>
+                            
+                            <div class="box">
+                                <img src="image/icon-3.png" alt="">
+                                <h3>js</h3>
+                            </div>
+                            
+                            <div class="box">
+                                <img src="image/icon-4.png" alt="">
+                                <h3>sass</h3>
+                            </div>
+
+                        </div>
+
+                        <a href="#cv" class="btn"> voir mon CV <i class="fas fa-download"></i> </a>
+
+                </section>
+
+                <section id="cv" class="parcours">
+
+                    <h1 class="heading"><span>mon</span> parcours</h1>
+
+                    <div class="box-container">
+                        <div class="box">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>2015 - 2016</span>
+                            <h3>BEPC</h3>
+                            <p>Obtention de mon diplôme de premier cycle</p>
+                        </div>
+
+                        <div class="box">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>2018 - 2019</span>
+                            <h3>BAC</h3>
+                            <p>Obtention de mon diplôme de second cycle</p>
+                        </div>
+
+                        <div class="box">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>2021 - 2022</span>
+                            <h3>LICENCE</h3>
+                            <p>Obtention de mon diplôme de premier cycle universitaire</p>
+                        </div>
+
+                        <div class="box">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>2022 - 2023</span>
+                            <h3>UDEMY</h3>
+                            <p>Obtention de mon certificat en word, excel, powepoint et marketing digital</p>
+                        </div>
+
+                        <div class="box">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>2024 - 2025</span>
+                            <h3>YANGO</h3>
+                            <p>Obtention de mon certificat en sql avec python en suivant les cours en ligne sur yango education</p>
+                        </div>
+
+                        <div class="box">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>2024 - 2025</span>
+                            <h3>COCAN</h3>
+                            <p>Obtention de mon certificat de bénévole. Lors de l'organisation de la CAN 2023</p>
+                        </div>
+
+                    </div>
+
+                    <h2 class="heading">Mon <span>CV</span></h2>
+
+                    <p>Vous pouvez télécharger mon CV ici :</p>
+
+                    <a href="image/cv diom.pdf" class="btn">Télécharger ici <i class="fas fa-download"></i> </a>
+                </section>
+                <section id="contact" class="contacts">
+
+                    <h1 class="heading">Contactez <span>moi</span></h1>
+
+                    <div class="row">
+                        
+                        <div class="info-container">
+
+                            <h1>Laissez-moi un message ici</h1>
+                            
+                            <p>Laissez-moi un message, critique tout autre message venant de vous me fera plaisir</p>
+
+                            <div class="box-container">
+    
+                                <div class="box">
+                                    <i class="fas fa-map"></i>
+                                    <div class="info">
+                                        <h3>address :</h3>
+                                        <p>Abobo, Côte d'Ivoire - T200</p>
+                                    </div>
+                                </div>
+        
+                                <div class="box">
+                                    <i class="fas fa-envelope"></i>
+                                    <div class="info">
+                                        <h3>email :</h3>
+                                        <p>diomdesouley@gmail.com</p>
+                                    </div>
+                                </div>
+        
+                                <div class="box">
+                                    <i class="fas fa-phone"></i>
+                                    <div class="info">
+                                        <h3>numero :</h3>
+                                        <p>+225 07 689 171 64</p>
+                                    </div>
+                                </div>
+        
+                            </div>
+                            <div class="share">
+                                <a href="#" class="fab fa-facebook-f"></a>
+                                <a href="#" class="fab fa-twitter"></a>
+                                <a href="#" class="fab fa-instagram"></a>
+                                <a href="#" class="fab fa-linkedin"></a>
+                            </div>
+                        </div>
+
+                        <form action="">
+
+                            <div class="inputBox">
+                                <input type="text" placeholder="votre nom">
+                                <input type="number" placeholder="votre numero">
+                            </div>
+                    
+                            <div class="inputBox">
+                                <input type="email" placeholder="votre email">
+                                <input type="text" placeholder="votre subject">
+                            </div>
+                    
+                            <textarea name="" placeholder="votre message" id="" cols="30" rows="10"></textarea>
+                    
+                            <input type="submit" value="envoyez un message" class="btn">
+                    
+                        </form>
+
+                    </div>
+
+                
+
+                </section>
+            </main>
+            <footer>
+                <p>© 2025 Mon portofolio. tous Droit Reservés.</p>
+            </footer>
     </body>
 </html>
